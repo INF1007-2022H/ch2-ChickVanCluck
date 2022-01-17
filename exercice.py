@@ -3,7 +3,10 @@
 def majuscule(mot):
     majmot = ''
     for c in mot:
-        majmot += chr(ord('lettre')-32)
+        if 97<=ord(c)<=122
+            majmot += chr(ord('c')-32)
+        else 
+            majmot += c
     return majmot
 
 
